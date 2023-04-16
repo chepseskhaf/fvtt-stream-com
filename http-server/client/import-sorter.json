@@ -1,0 +1,29 @@
+{
+  "generalConfiguration.sortOnBeforeSave": true,
+  "importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "maxLineLength",
+  "importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 999999,
+  "importStringConfiguration.tabSize": 2,
+  "importStringConfiguration.quoteMark": "single",
+  "importStringConfiguration.numberOfEmptyLinesAfterAllImports": 2,
+  "sortConfiguration.customOrderingRules.defaultOrderLevel": 30,
+  "sortConfiguration.customOrderingRules.rules": [
+    {
+      "type": "importMember",
+      "regex": "^$",
+      "orderLevel": 10,
+      "disableSort": true
+    },
+    {
+      "regex": "^@angular",
+      "orderLevel": 20
+    },
+    {
+      "regex": "^#",
+      "orderLevel": 40
+    },
+    {
+      "regex": "^(./|../|src/)",
+      "orderLevel": 50
+    }
+  ]
+}

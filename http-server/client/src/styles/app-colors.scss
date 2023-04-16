@@ -1,0 +1,5 @@
+@use 'sass:map';
+@use '@angular/material' as mat;
+
+$app-background-color: map.get(mat.$dark-theme-background-palette, 'background');
+$app-text-color: map.get(mat.$dark-theme-foreground-palette, 'text');

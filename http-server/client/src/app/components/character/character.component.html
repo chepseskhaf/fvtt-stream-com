@@ -1,0 +1,7 @@
+<ng-container *ngIf="data$ | async as data">
+  <div class="title">{{ data.name }} : {{ data.hp }} / {{ data.hpMax }} <span *ngIf="data.hpTemp > 0">(temp : {{ data.hpTemp }})</span></div>
+  <div class="hp-bar">
+    <div class="value" [style.flex-grow]="data.hp / (data.hpMax + data.hpTemp)"></div>
+    <div class="temp" [style.flex-grow]="data.hpTemp / (data.hpMax + data.hpTemp)"></div>
+  </div>
+</ng-container>

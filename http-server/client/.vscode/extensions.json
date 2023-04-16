@@ -1,0 +1,10 @@
+{
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=827846
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "angular.ng-template",
+    "mike-co.import-sorter",
+    "eliostruyf.vscode-typescript-exportallmodules",
+    "cyrilletuzi.angular-schematics"
+  ]
+}

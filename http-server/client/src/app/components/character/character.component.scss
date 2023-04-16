@@ -1,0 +1,27 @@
+:host {
+    display: block;
+    padding: 2px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.hp-bar {
+    display: flex;
+    background-color: white;
+    height: 12px;
+    border: 1px solid black;
+
+    .value {
+        display: block;
+        height: 100%;
+        background-color: greenyellow;
+    }
+
+    .temp {
+        display: block;
+        height: 100%;
+        background-color: aqua;
+    }
+}
